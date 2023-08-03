@@ -1,0 +1,45 @@
+<!-- Add this file to source control in order to automatically restore library dependencies when opening the project on another machine -->
+<ArduinoDependencyCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Dependencies>
+    <Dependency>
+      <Type>Platform</Type>
+      <Key>
+        <Packager>esp32</Packager>
+        <Name>esp32</Name>
+        <Version>2.0.11</Version>
+      </Key>
+    </Dependency>
+    <Dependency>
+      <Type>Library</Type>
+      <Key>
+        <Packager>Gregg &lt;homespan@icloud.com&gt;</Packager>
+        <Name>HomeSpan</Name>
+        <Version>1.8.0</Version>
+      </Key>
+    </Dependency>
+    <Dependency>
+      <Type>Library</Type>
+      <Key>
+        <Packager>Richard Sperry &lt;Richard@SperryFamily.net&gt;</Packager>
+        <Name>Helpers</Name>
+        <Version>1.0.0</Version>
+      </Key>
+    </Dependency>
+    <Dependency>
+      <Type>Library</Type>
+      <Key>
+        <Packager>Richard Sperry &lt;Richard@SperryFamily.net&gt;</Packager>
+        <Name>WiredHomeSpan</Name>
+        <Version>1.0.0</Version>
+      </Key>
+    </Dependency>
+    <Dependency>
+      <Type>Library</Type>
+      <Key>
+        <Packager>Richard Sperry &lt;Richard@SperryFamily.net&gt;</Packager>
+        <Name>WiredSensors</Name>
+        <Version>1.0.0</Version>
+      </Key>
+    </Dependency>
+  </Dependencies>
+</ArduinoDependencyCollection>

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33920.267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2F7F890-7429-4AEB-BE1E-102195D78406}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{440BF579-A766-48D8-B9DC-B8F440CAC2B6}"
+EndProject
+Project("{803FD0C6-D64E-4E16-9DC3-1DAEC859A3D2}") = "EspSensor", "src\EspSensor.vgdbproj", "{45B31109-6C28-48BE-B334-4C1CFDB9D326}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "libraries\Common\Common.vcxitems", "{DEE4D9C6-38DD-43E1-BB8E-73E18DD641E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiredHomeSpan", "libraries\WiredHomeSpan\WiredHomeSpan.vcxitems", "{766A317E-DB2F-4119-865F-094AFE1DA81F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiredSensors", "libraries\WiredSensors\WiredSensors.vcxitems", "{A7BAFB02-ABB3-4184-A7F7-F7531F2A2D6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ESP32_Dev_Module = Debug|ESP32_Dev_Module
+		Release|ESP32_Dev_Module = Release|ESP32_Dev_Module
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45B31109-6C28-48BE-B334-4C1CFDB9D326}.Debug|ESP32_Dev_Module.ActiveCfg = Debug|ESP32_Dev_Module
+		{45B31109-6C28-48BE-B334-4C1CFDB9D326}.Debug|ESP32_Dev_Module.Build.0 = Debug|ESP32_Dev_Module
+		{45B31109-6C28-48BE-B334-4C1CFDB9D326}.Release|ESP32_Dev_Module.ActiveCfg = Release|ESP32_Dev_Module
+		{45B31109-6C28-48BE-B334-4C1CFDB9D326}.Release|ESP32_Dev_Module.Build.0 = Release|ESP32_Dev_Module
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEE4D9C6-38DD-43E1-BB8E-73E18DD641E2} = {440BF579-A766-48D8-B9DC-B8F440CAC2B6}
+		{766A317E-DB2F-4119-865F-094AFE1DA81F} = {440BF579-A766-48D8-B9DC-B8F440CAC2B6}
+		{A7BAFB02-ABB3-4184-A7F7-F7531F2A2D6A} = {440BF579-A766-48D8-B9DC-B8F440CAC2B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0F78AE2-1B27-4822-8262-2509E6D3010E}
+	EndGlobalSection
+EndGlobal

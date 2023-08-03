@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{dee4d9c6-38dd-43e1-bb8e-73e18dd641e2}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+    <Text Include="$(MSBuildThisFileDirectory)src\Helpers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- <ClInclude Include="$(MSBuildThisFileDirectory)Helpers.h" /> -->
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\I2cHelpers.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SensorBattery.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SensorHumidity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SensorTemperature.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Helpers.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\I2cHelpers.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SensorBattery.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SensorHumidity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SensorTemperature.cpp" />
+  </ItemGroup>
+</Project>
